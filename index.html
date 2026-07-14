@@ -27,7 +27,7 @@
     <div class="section">
         <h2>[관리자] 제품 데이터 등록</h2>
         <div class="form-group">
-            <label>제품명:</label>
+            <label>제품명(회사명):</label>
             <input type="text" id="prodName" value="사무용 가성비 태블릿">
         </div>
         
@@ -133,10 +133,10 @@
 
     <script>
         const products = [
-            { name: "집돌이용 하이엔드 PC", vector: [5, 1, 1] },   // 고가(5), 실내(1), 무거움(1)
-            { name: "대학생 가성비 노트북", vector: [2, 4, 4] },   // 저렴(2), 이동(4), 가벼움(4)
-            { name: "프로 캠퍼용 아웃도어 빔", vector: [4, 5, 3] }, 
-            { name: "선풍기", vector: [1, 2, 1] }                 // 저가(1), 실내(2), 무거움(1)
+            { name: "집돌이용 하이엔드 PC(토리시스템즈)", vector: [5, 1, 1] },   // 고가(5), 실내(1), 무거움(1)
+            { name: "대학생 가성비 노트북(LG)", vector: [2, 4, 4] },   // 저렴(2), 이동(4), 가벼움(4)
+            { name: "프로 캠퍼용 아웃도어 빔(벤큐)", vector: [4, 5, 3] }, 
+            { name: "선풍기(신일전자)", vector: [1, 2, 1] }                 // 저가(1), 실내(2), 무거움(1)
         ];
 
         function updateProductTable() {
